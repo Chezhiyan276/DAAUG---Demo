@@ -40,12 +40,7 @@ function pushProductsAccumulative(input) {
   });
 }
 pushProductsAccumulative([
-  { name: "Apple iPad Mini", model: "G2356", price: 2.99, quantity: 1, total: 2.99 }
-]);
-pushProductsAccumulative([
-  { name: "Smart Camera", model: "SC5436", price: 10.99, quantity: 1, total: 10.99 }
-]);
-
-pushProductsAccumulative([
+  { name: "Apple iPad Mini", model: "G2356", price: 2.99, quantity: 1, total: 2.99 },
+  { name: "Smart Camera", model: "SC5436", price: 10.99, quantity: 1, total: 10.99 },
   { name: "EOS Rebel T7i Kit", model: "Rebel T7i", price: 899.00, quantity: 1, total: 899.00 }
 ]);
